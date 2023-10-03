@@ -23,10 +23,7 @@ subdata <- life_expectancy  %>%
 # Taking a look at the first few rows
 head(subdata)
 
-# one or more tests of the students code. 
-# The @solution should pass the tests.
-# The purpose of the tests is to try to catch common errors and to 
-# give the student a hint on how to resolve these errors.
+#conduct tests
 run_tests({
   test_that("Test that subdata exists", {
     expect_true(exists("subdata"), 
